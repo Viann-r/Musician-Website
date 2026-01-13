@@ -1,3 +1,36 @@
+:root {
+    font-size: 10px;
+    ---main-color: black;
+    --main-background-color: white;
+}
+
+.links1-u {
+    display: flex; 
+    flex-direction: row;
+    margin-left: 850px;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+li {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: var(---main-color)
+}
+
+.signin {
+    border-top: solid black 4px;
+}
+
+.links1 a:hover {
+    color: rgb(247, 64, 240);
+    border-top: solid black 4px;
+}
+
+
 body {
      background-image: url(https://static.wixstatic.com/media/9c608a_10fa3b1ab1f14f0bbb12d106cbeade94.jpg);
     background-repeat: no-repeat;
@@ -55,6 +88,386 @@ form {
 }
 
 svg {
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+
+
+@media (min-width: 1280px) {
+    :root {
+    font-size: 10px;
+    ---main-color: black;
+    --main-background-color: white;
+}
+body {
+     background-image: url(https://static.wixstatic.com/media/9c608a_10fa3b1ab1f14f0bbb12d106cbeade94.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links1-u {
+    display: flex; 
+    flex-direction: row;
+    margin-left: 850px;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+li {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: var(---main-color)
+}
+
+.signin {
+    border-top: solid black 4px;
+}
+
+.links1 a:hover {
+    color: rgb(247, 64, 240);
+    border-top: solid black 4px;
+}
+
+p {
+    font-size: 50px;
+    padding-left: 200px;
+    padding-top: 50px;
+    color: rgb(247, 64, 240);
+}
+
+
+
+.registrationandlinks {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.registration {
+    padding-left: 550px;
+    padding-top: 130px;
+    width: 400px;
+    height: 225px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 15px;
+}
+
+.submit {
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    margin-left: 300px;
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    padding-top: 60px;
+    
+}
+
+svg {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+}
+
+
+@media (max-width: 1279px) {
+    :root {
+    font-size: 10px;
+    ---main-color: black;
+    --main-background-color: white;
+}
+body {
+     background-image: url(https://static.wixstatic.com/media/9c608a_10fa3b1ab1f14f0bbb12d106cbeade94.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links1-u {
+    display: flex; 
+    flex-direction: row;
+    margin-left: 850px;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+li {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: var(---main-color)
+}
+
+.signin {
+    border-top: solid black 4px;
+}
+
+.links1 a:hover {
+    color: rgb(247, 64, 240);
+    border-top: solid black 4px;
+}
+
+p {
+    font-size: 50px;
+    padding-left: 200px;
+    padding-top: 50px;
+    color: rgb(247, 64, 240);
+}
+
+
+
+.registrationandlinks {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.registration {
+    padding-left: 550px;
+    padding-top: 130px;
+    width: 400px;
+    height: 225px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 15px;
+}
+
+.submit {
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    margin-left: 300px;
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    padding-top: 60px;
+    
+}
+
+svg {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    :root {
+    font-size: 10px;
+    ---main-color: black;
+    --main-background-color: white;
+}
+body {
+     background-image: url(https://static.wixstatic.com/media/9c608a_10fa3b1ab1f14f0bbb12d106cbeade94.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links1-u {
+    display: flex; 
+    flex-direction: row;
+    margin-left: 200px;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+li {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: var(---main-color)
+}
+
+.signin {
+    border-top: solid black 4px;
+}
+
+.links1 a:hover {
+    color: rgb(247, 64, 240);
+    border-top: solid black 4px;
+}
+
+p {
+    font-size: 50px;
+    padding-left: 330px;
+    padding-top: 10px;
+    color: rgb(247, 64, 240);
+}
+
+
+
+.registrationandlinks {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.registration {
+    padding-left: 200px;
+    padding-top: 100px;
+    width: 400px;
+    height: 225px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 15px;
+}
+
+.submit {
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    margin-left: 300px;
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    padding-top: 60px;
+    
+}
+
+svg {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+}
+
+
+@media (max-width: 480px) {
+    :root {
+    font-size: 10px;
+    ---main-color: black;
+    --main-background-color: white;
+}
+
+body {
+     background-image: url(https://static.wixstatic.com/media/9c608a_10fa3b1ab1f14f0bbb12d106cbeade94.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links1-u {
+    display: flex; 
+    flex-direction: row;
+    margin-left: 30px;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+li {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: var(---main-color)
+}
+
+.signin {
+    border-top: solid black 4px;
+}
+
+.links1 a:hover {
+    color: rgb(247, 64, 240);
+    border-top: solid black 4px;
+}
+
+
+
+p {
+    font-size: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    color: rgb(247, 64, 240);
+}
+
+
+
+.registrationandlinks {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.registration {
+    padding-left: 90px;
+    padding-top: 50px;
+    width: 200px;
+    height: 225px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 15px;
+}
+
+.submit {
+    margin-top: 50px;
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
+    background-color: rgb(82, 82, 82);
+    color: white;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    padding-top: 10px;
+    
+}
+
+svg {
+    width: 2.5rem;
+    height: 2.5rem;
+}
 }

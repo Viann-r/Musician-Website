@@ -4,20 +4,11 @@
     --main-background-color: white;
 }
 
-.background {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(https://static.wixstatic.com/media/9c608a_10fa3b1ab1f14f0bbb12d106cbeade94.jpg);
+body {
+    background-color: #F1FCED;
 }
 
-
 /* HEADER */
-
-
-
-
-
-
 
 .alllinks1 {
     display: flex;
@@ -43,7 +34,6 @@ a {
     text-decoration: none;
     color: var(---main-color)
 }
-
 .chloe a {
     color: rgb(247, 64, 240);
     font-size: 2.5rem;
@@ -51,7 +41,7 @@ a {
     text-decoration: none;
     letter-spacing: 3px;
 }
-.home {
+.music {
     border-top: solid black 4px;
 }
 
@@ -60,58 +50,24 @@ a {
     border-top: solid black 4px;
 }
 
+.music-h {
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 6px;
+}
 
 
 /* MAIN */
 
-.newalbum {
-    margin: 5rem;
-    padding-left: 67.3rem;
-    padding-top: 5rem;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-}
-.newalbum1 {
-   font-family: "Cutive Mono", monospace;
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: 6px;
-}
-.newalbum2 {
-    padding-left: 9rem;
-    padding-top: 5rem;
-    position: absolute;
-    font-family: "Metal", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-svg {
-    width: 2.5rem;
-    height: 2.5rem;
-}
-
-.linksandmusic {
-    display: flex;
-    flex-direction: row;
-}
-
-.links {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1.3rem;
-    position: fixed;
-    top: 25rem;
-}
-
 .musicd {
     background-color: var(--main-background-color);
-    width: 33rem;
-    height: 75rem;
-    margin-left: 75rem;
+    width: 65rem;
+    height: 107rem;
+    margin-left: 43rem;
 }
 button {
     height: 4rem;
@@ -131,12 +87,11 @@ button:active {
     width: 12rem;
 }
 .share {
-    margin-left: 7.8rem;
+    margin-left: 40rem;
     width: 10rem;
 }
 img {
-    width: 30.2rem;
-    height: 30.2rem;
+    width: 62rem;
     margin-left: 1.5rem;
     margin-top: 1rem;
 }
@@ -146,12 +101,15 @@ h4 {
 }
 .goodvibes {
     font-weight: 1;
+    font-size: 13px;
+    margin-left: 30rem;
 }
 .wixdemoalbum {
     font-weight: 400;
-    padding-left: 7px;
+    padding-left: 174px;
 }
 audio {
+    width: 620px;
     padding-left: 1.5rem;
 }
 .m a {
@@ -160,10 +118,9 @@ audio {
 .m button {
     border-style: none;
 }
-
 .time {
     position: absolute;
-    top: 895px;
+    top: 105.5rem;
     left: 1030px;
 }
 .time1 {
@@ -193,40 +150,39 @@ audio {
 .invisible4 {
     opacity: 0;
 }
-
 .hover1 {
-    width: 293px;
+    width: 618px;
     height: 40px;
     position: absolute;
-    top: 897px;
-    left: 780px;
+    top: 105.5rem;
+    left: 455px;
     display: flex;
     flex-direction: row;
 }
 .hover2 {
-    width: 293px;
+    width: 618px;
     height: 41px;
     position: absolute;
-    top: 949px;
-    left: 780px;
+    top: 110.5rem;
+    left: 455px;
     display: flex;
     flex-direction: row;
 }
 .hover3 {
-    width: 293px;
+    width: 618px;
     height: 40px;
     position: absolute;
-    top: 1002px;
-    left: 780px;
+    top: 116rem;
+    left: 455px;
     display: flex;
     flex-direction: row;
 }
 .hover4 {
-    width: 293px;
+    width: 618px;
     height: 40px;
     position: absolute;
-    top: 1055px;
-    left: 780px;
+    top: 121rem;
+    left: 455px;
     display: flex;
     flex-direction: row;
 }
@@ -235,22 +191,17 @@ audio {
    padding-top: 9px;
 }
 .m1 {
-    margin-top: 2px;
-    width: 118px;
+    margin-top: 4px;
+    width: 93px;
     margin-left: 8px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 416px;
     margin-top: 5px;
    background-color: rgb(173, 173, 173);
    color: white;
@@ -259,28 +210,23 @@ audio {
     background-color: rgb(173, 173, 173);
     color: white;
 }
-
 .p2 {
     font-size: 10px;
-   padding-top: 11px;
+   padding-top: 13px;
+   padding-left:2px;
 }
 .m2 {
-    margin-top: 3px;
-    width: 122px;
+    margin-top: 6px;
+    width: 108px;
     margin-left: 8px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh2 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b2 {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 402px;
     margin-top: 5px;
    background-color: rgb(173, 173, 173);
    color: white;
@@ -292,24 +238,20 @@ audio {
 .p3 {
     font-size: 10px;
    padding-top: 9px;
+   padding-left: 1px;
 }
 .m3 {
-    margin-top: 1px;
-    width: 122px;
+    margin-top: 5px;
+    width: 99px;
     margin-left: 8px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh3 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b3 {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 409px;
     margin-top: 5px;
    background-color: rgb(173, 173, 173);
    color: white;
@@ -318,31 +260,26 @@ audio {
     background-color: rgb(173, 173, 173);
     color: white;
 }
-
 .p4 {
     font-size: 10px;
-   padding-top: 9px;
+   padding-top: 15px;
+   padding-left: 4px;
 }
 .m4 {
-    margin-top: 1px;
-    width: 122px;
-    margin-left: 8px;
+    margin-top: 7px;
+    width: 70px;
+    margin-left: 2px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh4 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b4 {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 447px;
     margin-top: 5px;
-   background-color: rgb(173, 173, 173);
-   color: white;
+    background-color: rgb(173, 173, 173);
+    color: white;
 }
 .buy-b4:hover {
     background-color: rgb(173, 173, 173);
@@ -360,6 +297,18 @@ audio {
 .invisible4:hover {
     opacity: 1;
 }
+
+.links {
+    width: 2.5rem;
+    height: 2.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    position: fixed;
+    top: 25rem;
+}
+
 
 
 /* FOOTER */
@@ -368,24 +317,21 @@ audio {
     display: flex;
     justify-content: center;
     font-size: 1.4rem;
+    margin-top: 4rem;
 }
-
 
 
 
 
 @media (min-width: 1280px) {
-    :root {
+:root {
     font-size: 10px;
     ---main-color: black;
     --main-background-color: white;
 }
 
-.background {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(https://static.wixstatic.com/media/9c608a_10fa3b1ab1f14f0bbb12d106cbeade94.jpg);
-    width: 100%;
+body {
+    background-color: #F1FCED;
 }
 .alllinks1 {
     display: flex;
@@ -418,7 +364,7 @@ a {
     text-decoration: none;
     letter-spacing: 3px;
 }
-.home {
+.music {
     border-top: solid black 4px;
 }
 
@@ -426,53 +372,21 @@ a {
     color: rgb(247, 64, 240);
     border-top: solid black 4px;
 }
-.newalbum {
-    margin: 5rem;
-    padding-left: 67.3rem;
-    padding-top: 5rem;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-}
-.newalbum1 {
-   font-family: "Cutive Mono", monospace;
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: 6px;
-}
-.newalbum2 {
-    padding-left: 9rem;
-    padding-top: 5rem;
-    position: absolute;
-    font-family: "Metal", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-svg {
-    width: 2.5rem;
-    height: 2.5rem;
-}
 
-.linksandmusic {
+.music-h {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    font-size: 6rem;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 6px;
 }
-
-.links {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1.3rem;
-    position: fixed;
-    top: 25rem;
-}
-
 .musicd {
     background-color: var(--main-background-color);
-    width: 33rem;
-    height: 75rem;
-    margin-left: 75rem;
+    width: 65rem;
+    height: 107rem;
+    margin-left: 43rem;
 }
 button {
     height: 4rem;
@@ -492,12 +406,11 @@ button:active {
     width: 12rem;
 }
 .share {
-    margin-left: 7.8rem;
+    margin-left: 40rem;
     width: 10rem;
 }
 img {
-    width: 30.2rem;
-    height: 30.2rem;
+    width: 62rem;
     margin-left: 1.5rem;
     margin-top: 1rem;
 }
@@ -507,28 +420,26 @@ h4 {
 }
 .goodvibes {
     font-weight: 1;
+    font-size: 13px;
+    margin-left: 30rem;
 }
 .wixdemoalbum {
     font-weight: 400;
-    padding-left: 7px;
+    padding-left: 174px;
 }
-
 audio {
+    width: 620px;
     padding-left: 1.5rem;
 }
 .m a {
     font-size: 15px;
 }
-
 .m button {
     border-style: none;
-    /* width: 260px;
-    background-color: blue; */
 }
-
 .time {
     position: absolute;
-    top: 895px;
+    top: 105.5rem;
     left: 1030px;
 }
 .time1 {
@@ -559,42 +470,38 @@ audio {
     opacity: 0;
 }
 .hover1 {
-    width: 293px;
+    width: 618px;
     height: 40px;
-    /* background-color: rgb(127, 127, 255); */
     position: absolute;
-    top: 897px;
-    left: 780px;
+    top: 105.5rem;
+    left: 455px;
     display: flex;
     flex-direction: row;
 }
 .hover2 {
-    width: 293px;
+    width: 618px;
     height: 41px;
-    /* background-color: rgb(127, 127, 255); */
     position: absolute;
-    top: 949px;
-    left: 780px;
+    top: 110.5rem;
+    left: 455px;
     display: flex;
     flex-direction: row;
 }
 .hover3 {
-    width: 293px;
+    width: 618px;
     height: 40px;
-    /* background-color: rgb(127, 127, 255); */
     position: absolute;
-    top: 1002px;
-    left: 780px;
+    top: 116rem;
+    left: 455px;
     display: flex;
     flex-direction: row;
 }
 .hover4 {
-    width: 293px;
+    width: 618px;
     height: 40px;
-    /* background-color: rgb(127, 127, 255); */
     position: absolute;
-    top: 1055px;
-    left: 780px;
+    top: 121rem;
+    left: 455px;
     display: flex;
     flex-direction: row;
 }
@@ -603,22 +510,17 @@ audio {
    padding-top: 9px;
 }
 .m1 {
-    margin-top: 2px;
-    width: 118px;
+    margin-top: 4px;
+    width: 93px;
     margin-left: 8px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 416px;
     margin-top: 5px;
    background-color: rgb(173, 173, 173);
    color: white;
@@ -627,28 +529,23 @@ audio {
     background-color: rgb(173, 173, 173);
     color: white;
 }
-
 .p2 {
     font-size: 10px;
-   padding-top: 11px;
+   padding-top: 13px;
+   padding-left:2px;
 }
 .m2 {
-    margin-top: 3px;
-    width: 122px;
+    margin-top: 6px;
+    width: 108px;
     margin-left: 8px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh2 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b2 {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 402px;
     margin-top: 5px;
    background-color: rgb(173, 173, 173);
    color: white;
@@ -657,28 +554,23 @@ audio {
     background-color: rgb(173, 173, 173);
     color: white;
 }
-
 .p3 {
     font-size: 10px;
    padding-top: 9px;
+   padding-left: 1px;
 }
 .m3 {
-    margin-top: 1px;
-    width: 122px;
+    margin-top: 5px;
+    width: 99px;
     margin-left: 8px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh3 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b3 {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 409px;
     margin-top: 5px;
    background-color: rgb(173, 173, 173);
    color: white;
@@ -689,28 +581,24 @@ audio {
 }
 .p4 {
     font-size: 10px;
-   padding-top: 9px;
+   padding-top: 15px;
+   padding-left: 4px;
 }
 .m4 {
-    margin-top: 1px;
-    width: 122px;
-    margin-left: 8px;
+    margin-top: 7px;
+    width: 70px;
+    margin-left: 2px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh4 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b4 {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 447px;
     margin-top: 5px;
-   background-color: rgb(173, 173, 173);
-   color: white;
+    background-color: rgb(173, 173, 173);
+    color: white;
 }
 .buy-b4:hover {
     background-color: rgb(173, 173, 173);
@@ -728,407 +616,36 @@ audio {
 .invisible4:hover {
     opacity: 1;
 }
-h5 {
-    display: flex;
-    justify-content: center;
-    font-size: 1.4rem;
-}
 
+.links {
+    width: 2.5rem;
+    height: 2.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    position: fixed;
+    top: 25rem;
+}
 .bychloe {
     display: flex;
     justify-content: center;
     font-size: 1.4rem;
+    margin-top: 4rem;
 }
-
 }
-
-
 
 
 
 @media (max-width: 1279px) {
-    :root {
+:root {
     font-size: 10px;
     ---main-color: black;
     --main-background-color: white;
 }
 
-.background {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(https://static.wixstatic.com/media/9c608a_10fa3b1ab1f14f0bbb12d106cbeade94.jpg);
-    width: 127.9rem;
-}
-.alllinks1 {
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-around; */
-    list-style: none;
-    text-decoration: none;
-    padding-top: 10px;
-}
-
-.links1 ul {
-    display: flex; 
-    flex-direction: row;
-    gap: 30px;
-    list-style: none;
-    text-decoration: none;
-    font-size: 1.5rem;
-}
-li {
-    text-decoration: none;
-}
-a {
-    text-decoration: none;
-    color: var(---main-color)
-}
-.chloe a {
-    color: rgb(247, 64, 240);
-    font-size: 2.5rem;
-    list-style: none;
-    text-decoration: none;
-    letter-spacing: 3px;
-}
-.home {
-    border-top: solid black 4px;
-}
-
-.links1 a:hover {
-    color: rgb(247, 64, 240);
-    border-top: solid black 4px;
-}
-.newalbum {
-    margin: 5rem;
-    padding-left: 67.3rem;
-    padding-top: 5rem;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-}
-.newalbum1 {
-   font-family: "Cutive Mono", monospace;
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: 6px;
-}
-.newalbum2 {
-    padding-left: 9rem;
-    padding-top: 5rem;
-    position: absolute;
-    font-family: "Metal", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-svg {
-    width: 2.5rem;
-    height: 2.5rem;
-}
-
-.linksandmusic {
-    display: flex;
-    flex-direction: row;
-}
-
-.links {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1.3rem;
-    position: fixed;
-    top: 25rem;
-}
-
-.musicd {
-    background-color: var(--main-background-color);
-    width: 33rem;
-    height: 75rem;
-    margin-left: 75rem;
-}
-button {
-    height: 4rem;
-    margin-left: 1.5rem;
-    margin-top: 1.3rem;
-    color: rgb(173, 173, 173);
-    background-color: var(--main-background-color);
-    border: solid 1px rgb(173, 173, 173);
-}
-button:hover {
-    background-color: var(--main-background-color);
-}
-button:active {
-    background-color: var(--main-background-color);
-}
-.buy {
-    width: 12rem;
-}
-.share {
-    margin-left: 7.8rem;
-    width: 10rem;
-}
-img {
-    width: 30.2rem;
-    height: 30.2rem;
-    margin-left: 1.5rem;
-    margin-top: 1rem;
-}
-h4 {
-    margin-left: 8rem;
-    font-size: 1.6rem;
-}
-.goodvibes {
-    font-weight: 1;
-}
-.wixdemoalbum {
-    font-weight: 400;
-    padding-left: 7px;
-}
-
-audio {
-    padding-left: 1.5rem;
-}
-.m a {
-    font-size: 15px;
-}
-
-.m button {
-    border-style: none;
-    /* width: 260px;
-    background-color: blue; */
-}
-
-.time {
-    position: absolute;
-    top: 895px;
-    left: 1030px;
-}
-.time1 {
-    font-weight: 300;
-}
-.time2 {
-    padding-top: 22px;
-    font-weight: 300;
-}
-.time3 {
-    padding-top: 23px;
-    font-weight: 300;
-}
-.time4 {
-    padding-top: 24px;
-    font-weight: 300;
-}
-.invisible1 {
-    opacity: 0;
-}
-.invisible2 {
-    opacity: 0;
-}
-.invisible3 {
-    opacity: 0;
-}
-.invisible4 {
-    opacity: 0;
-}
-.hover1 {
-    width: 293px;
-    height: 40px;
-    /* background-color: rgb(127, 127, 255); */
-    position: absolute;
-    top: 897px;
-    left: 780px;
-    display: flex;
-    flex-direction: row;
-}
-.hover2 {
-    width: 293px;
-    height: 41px;
-    /* background-color: rgb(127, 127, 255); */
-    position: absolute;
-    top: 949px;
-    left: 780px;
-    display: flex;
-    flex-direction: row;
-}
-.hover3 {
-    width: 293px;
-    height: 40px;
-    /* background-color: rgb(127, 127, 255); */
-    position: absolute;
-    top: 1002px;
-    left: 780px;
-    display: flex;
-    flex-direction: row;
-}
-.hover4 {
-    width: 293px;
-    height: 40px;
-    /* background-color: rgb(127, 127, 255); */
-    position: absolute;
-    top: 1055px;
-    left: 780px;
-    display: flex;
-    flex-direction: row;
-}
-.p {
-    font-size: 10px;
-   padding-top: 9px;
-}
-.m1 {
-    margin-top: 2px;
-    width: 118px;
-    margin-left: 8px;
-    color: rgb(173, 173, 173);
-    border-style: none;
-    font-size: 14px;
-}
-.sh {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
-.buy-b {
-    width: 70px;
-    height: 30px;
-    margin-left: 10px;
-    margin-top: 5px;
-   background-color: rgb(173, 173, 173);
-   color: white;
-}
-.buy-b:hover {
-    background-color: rgb(173, 173, 173);
-    color: white;
-}
-
-.p2 {
-    font-size: 10px;
-   padding-top: 11px;
-}
-.m2 {
-    margin-top: 3px;
-    width: 122px;
-    margin-left: 8px;
-    color: rgb(173, 173, 173);
-    border-style: none;
-    font-size: 14px;
-}
-.sh2 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
-.buy-b2 {
-    width: 70px;
-    height: 30px;
-    margin-left: 10px;
-    margin-top: 5px;
-   background-color: rgb(173, 173, 173);
-   color: white;
-}
-.buy-b2:hover {
-    background-color: rgb(173, 173, 173);
-    color: white;
-}
-
-.p3 {
-    font-size: 10px;
-   padding-top: 9px;
-}
-.m3 {
-    margin-top: 1px;
-    width: 122px;
-    margin-left: 8px;
-    color: rgb(173, 173, 173);
-    border-style: none;
-    font-size: 14px;
-}
-.sh3 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
-.buy-b3 {
-    width: 70px;
-    height: 30px;
-    margin-left: 10px;
-    margin-top: 5px;
-   background-color: rgb(173, 173, 173);
-   color: white;
-}
-.buy-b3:hover {
-    background-color: rgb(173, 173, 173);
-    color: white;
-}
-.p4 {
-    font-size: 10px;
-   padding-top: 9px;
-}
-.m4 {
-    margin-top: 1px;
-    width: 122px;
-    margin-left: 8px;
-    color: rgb(173, 173, 173);
-    border-style: none;
-    font-size: 14px;
-}
-.sh4 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
-.buy-b4 {
-    width: 70px;
-    height: 30px;
-    margin-left: 10px;
-    margin-top: 5px;
-   background-color: rgb(173, 173, 173);
-   color: white;
-}
-.buy-b4:hover {
-    background-color: rgb(173, 173, 173);
-    color: white;
-}
-.invisible1:hover {
-    opacity: 1;
-}
-.invisible2:hover {
-    opacity: 1;
-}
-.invisible3:hover {
-    opacity: 1;
-}
-.invisible4:hover {
-    opacity: 1;
-}
-h5 {
-    display: flex;
-    justify-content: center;
-    font-size: 1.4rem;
-}
-
-.bychloe {
-    display: flex;
-    justify-content: center;
-    font-size: 1.4rem;
-}
-
-}
-
-
-
-
-@media (max-width: 768px) {
-    :root {
-    font-size: 10px;
-    ---main-color: black;
-    --main-background-color: white;
-}
-
-.background {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(https://static.wixstatic.com/media/9c608a_10fa3b1ab1f14f0bbb12d106cbeade94.jpg);
-    width: 77rem;
+body {
+    background-color: #F1FCED;
 }
 .alllinks1 {
     display: flex;
@@ -1161,7 +678,7 @@ a {
     text-decoration: none;
     letter-spacing: 3px;
 }
-.home {
+.music {
     border-top: solid black 4px;
 }
 
@@ -1169,54 +686,21 @@ a {
     color: rgb(247, 64, 240);
     border-top: solid black 4px;
 }
-.newalbum {
-    margin: 5rem;
-    width: 400px;
-    padding-left: 10rem;
-    padding-top: 3rem;
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-}
-.newalbum1 {
-   font-family: "Cutive Mono", monospace;
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: 6px;
-}
-.newalbum2 {
-    padding-left: 9rem;
-    padding-top: 5rem;
-    position: absolute;
-    font-family: "Metal", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-svg {
-    width: 2.5rem;
-    height: 2.5rem;
-}
 
-.linksandmusic {
+.music-h {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    font-size: 6rem;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 6px;
 }
-
-.links {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 1.3rem;
-    position: fixed;
-    top: 25rem;
-}
-
 .musicd {
     background-color: var(--main-background-color);
-    width: 33rem;
-    height: 75rem;
-    margin-left: 16rem;
+    width: 65rem;
+    height: 107rem;
+    margin-left: 43rem;
 }
 button {
     height: 4rem;
@@ -1236,12 +720,11 @@ button:active {
     width: 12rem;
 }
 .share {
-    margin-left: 7.8rem;
+    margin-left: 40rem;
     width: 10rem;
 }
 img {
-    width: 30.2rem;
-    height: 30.2rem;
+    width: 62rem;
     margin-left: 1.5rem;
     margin-top: 1rem;
 }
@@ -1251,29 +734,27 @@ h4 {
 }
 .goodvibes {
     font-weight: 1;
+    font-size: 13px;
+    margin-left: 30rem;
 }
 .wixdemoalbum {
     font-weight: 400;
-    padding-left: 7px;
+    padding-left: 174px;
 }
-
 audio {
+    width: 620px;
     padding-left: 1.5rem;
 }
 .m a {
     font-size: 15px;
 }
-
 .m button {
     border-style: none;
-    /* width: 260px;
-    background-color: blue; */
 }
-
 .time {
     position: absolute;
-    top: 87.5rem;
-    left: 45rem;
+    top: 105.5rem;
+    left: 1030px;
 }
 .time1 {
     font-weight: 300;
@@ -1303,42 +784,38 @@ audio {
     opacity: 0;
 }
 .hover1 {
-    width: 293px;
+    width: 618px;
     height: 40px;
-    /* background-color: rgb(127, 127, 255); */
     position: absolute;
-    top: 897px;
-    left: 780px;
+    top: 105.5rem;
+    left: 455px;
     display: flex;
     flex-direction: row;
 }
 .hover2 {
-    width: 293px;
+    width: 618px;
     height: 41px;
-    /* background-color: rgb(127, 127, 255); */
     position: absolute;
-    top: 949px;
-    left: 780px;
+    top: 110.5rem;
+    left: 455px;
     display: flex;
     flex-direction: row;
 }
 .hover3 {
-    width: 293px;
+    width: 618px;
     height: 40px;
-    /* background-color: rgb(127, 127, 255); */
     position: absolute;
-    top: 1002px;
-    left: 780px;
+    top: 116rem;
+    left: 455px;
     display: flex;
     flex-direction: row;
 }
 .hover4 {
-    width: 293px;
+    width: 618px;
     height: 40px;
-    /* background-color: rgb(127, 127, 255); */
     position: absolute;
-    top: 1055px;
-    left: 780px;
+    top: 121rem;
+    left: 455px;
     display: flex;
     flex-direction: row;
 }
@@ -1347,22 +824,17 @@ audio {
    padding-top: 9px;
 }
 .m1 {
-    margin-top: 2px;
-    width: 118px;
+    margin-top: 4px;
+    width: 93px;
     margin-left: 8px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 416px;
     margin-top: 5px;
    background-color: rgb(173, 173, 173);
    color: white;
@@ -1371,28 +843,23 @@ audio {
     background-color: rgb(173, 173, 173);
     color: white;
 }
-
 .p2 {
     font-size: 10px;
-   padding-top: 11px;
+   padding-top: 13px;
+   padding-left:2px;
 }
 .m2 {
-    margin-top: 3px;
-    width: 122px;
+    margin-top: 6px;
+    width: 108px;
     margin-left: 8px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh2 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b2 {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 402px;
     margin-top: 5px;
    background-color: rgb(173, 173, 173);
    color: white;
@@ -1401,28 +868,23 @@ audio {
     background-color: rgb(173, 173, 173);
     color: white;
 }
-
 .p3 {
     font-size: 10px;
    padding-top: 9px;
+   padding-left: 1px;
 }
 .m3 {
-    margin-top: 1px;
-    width: 122px;
+    margin-top: 5px;
+    width: 99px;
     margin-left: 8px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh3 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b3 {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 409px;
     margin-top: 5px;
    background-color: rgb(173, 173, 173);
    color: white;
@@ -1433,60 +895,377 @@ audio {
 }
 .p4 {
     font-size: 10px;
-   padding-top: 9px;
+   padding-top: 15px;
+   padding-left: 4px;
 }
 .m4 {
-    margin-top: 1px;
-    width: 122px;
-    margin-left: 8px;
+    margin-top: 7px;
+    width: 70px;
+    margin-left: 2px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh4 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b4 {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 447px;
     margin-top: 5px;
-   background-color: rgb(173, 173, 173);
-   color: white;
+    background-color: rgb(173, 173, 173);
+    color: white;
 }
 .buy-b4:hover {
     background-color: rgb(173, 173, 173);
     color: white;
 }
-
-h5 {
-    display: flex;
-    justify-content: center;
-    font-size: 1.4rem;
+.invisible1:hover {
+    opacity: 1;
+}
+.invisible2:hover {
+    opacity: 1;
+}
+.invisible3:hover {
+    opacity: 1;
+}
+.invisible4:hover {
+    opacity: 1;
 }
 
+.links {
+    width: 2.5rem;
+    height: 2.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    position: fixed;
+    top: 25rem;
+}
 .bychloe {
     display: flex;
     justify-content: center;
     font-size: 1.4rem;
+    margin-top: 4rem;
+}
 }
 
+
+
+@media (max-width: 768px) {
+:root {
+    font-size: 10px;
+    ---main-color: black;
+    --main-background-color: white;
 }
 
+body {
+    background-color: #F1FCED;
+}
 
+.alllinks1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    padding-top: 10px;
+}
 
+.links1 ul {
+    display: flex; 
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+li {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: var(---main-color)
+}
+.chloe a {
+    color: rgb(247, 64, 240);
+    font-size: 2.5rem;
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.music {
+    border-top: solid black 4px;
+}
 
+.links1 a:hover {
+    color: rgb(247, 64, 240);
+    border-top: solid black 4px;
+}
+.music-h {
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 6px;
+}
+.musicd {
+    background-color: var(--main-background-color);
+    width: 58rem;
+    height: 100rem;
+    margin-left: 10rem;
+}
+button {
+    height: 4rem;
+    margin-left: 1.5rem;
+    margin-top: 1.3rem;
+    color: rgb(173, 173, 173);
+    background-color: var(--main-background-color);
+    border: solid 1px rgb(173, 173, 173);
+}
+button:hover {
+    background-color: var(--main-background-color);
+}
+button:active {
+    background-color: var(--main-background-color);
+}
+.buy {
+    width: 12rem;
+}
+.share {
+    margin-left: 33rem;
+    width: 10rem;
+}
+img {
+    width: 55rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+h4 {
+    margin-left: 8rem;
+    font-size: 1.6rem;
+}
+.goodvibes {
+    font-weight: 1;
+    font-size: 13px;
+    margin-left: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.wixdemoalbum {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-left: 50px;
+    display: flex;
+}
+audio {
+    width: 550px;
+    padding-left: 1.5rem;
+}
+.m a {
+    font-size: 15px;
+}
+.m button {
+    border-style: none;
+}
+.time {
+    position: absolute;
+    top: 986px;
+    left: 640px;
+}
+.time1 {
+    font-weight: 300;
+}
+.time2 {
+    padding-top: 22px;
+    font-weight: 300;
+}
+.time3 {
+    padding-top: 23px;
+    font-weight: 300;
+}
+.time4 {
+    padding-top: 24px;
+    font-weight: 300;
+}
+.invisible1 {
+    opacity: 0;
+}
+.invisible2 {
+    opacity: 0;
+}
+.invisible3 {
+    opacity: 0;
+}
+.invisible4 {
+    opacity: 0;
+}
+.hover1 {
+    width: 564px;
+    height: 40px;
+    position: absolute;
+    top: 98.5rem;
+    left: 12.4rem;
+    display: flex;
+    flex-direction: row;
+}
+.hover2 {
+    width: 560px;
+    height: 41px;
+    position: absolute;
+    top: 103.5rem;
+    left: 12.8rem;
+    display: flex;
+    flex-direction: row;
+}
+.hover3 {
+    width: 560px;
+    height: 40px;
+    position: absolute;
+    top: 109rem;
+    left: 12.8rem;
+    display: flex;
+    flex-direction: row;
+}
+.hover4 {
+    width: 560px;
+    height: 40px;
+    position: absolute;
+    top: 114.3rem;
+    left: 12.8rem;
+    display: flex;
+    flex-direction: row;
+}
+.p {
+    font-size: 10px;
+   padding-top: 9px;
+}
+.m1 {
+    margin-top: 4px;
+    width: 93px;
+    margin-left: 8px;
+    color: rgb(173, 173, 173);
+    border-style: none;
+    font-size: 14px;
+}
+.buy-b {
+    width: 70px;
+    height: 30px;
+    margin-left: 362px;
+    margin-top: 5px;
+   background-color: rgb(173, 173, 173);
+   color: white;
+}
+.buy-b:hover {
+    background-color: rgb(173, 173, 173);
+    color: white;
+}
+.p2 {
+    font-size: 10px;
+   padding-top: 13px;
+   padding-left:1px;
+}
+.m2 {
+    margin-top: 6px;
+    width: 108px;
+    margin-left: 8px;
+    color: rgb(173, 173, 173);
+    border-style: none;
+    font-size: 14px;
+}
+.buy-b2 {
+    width: 70px;
+    height: 30px;
+    margin-left: 345px;
+    margin-top: 5px;
+   background-color: rgb(173, 173, 173);
+   color: white;
+}
+.buy-b2:hover {
+    background-color: rgb(173, 173, 173);
+    color: white;
+}
+.p3 {
+    font-size: 10px;
+   padding-top: 9px;
+   padding-left: 0px;
+}
+.m3 {
+    margin-top: 5px;
+    width: 99px;
+    margin-left: 8px;
+    color: rgb(173, 173, 173);
+    border-style: none;
+    font-size: 14px;
+}
+.buy-b3 {
+    width: 70px;
+    height: 30px;
+    margin-left: 352px;
+    margin-top: 5px;
+   background-color: rgb(173, 173, 173);
+   color: white;
+}
+.buy-b3:hover {
+    background-color: rgb(173, 173, 173);
+    color: white;
+}
+.p4 {
+    font-size: 10px;
+   padding-top: 15px;
+   padding-left: 0px;
+}
+.m4 {
+    margin-top: 7px;
+    width: 70px;
+    margin-left: 8px;
+    color: rgb(173, 173, 173);
+    border-style: none;
+    font-size: 14px;
+}
+.buy-b4 {
+    width: 70px;
+    height: 30px;
+    margin-left: 387px;
+    margin-top: 5px;
+    background-color: rgb(173, 173, 173);
+    color: white;
+}
+.buy-b4:hover {
+    background-color: rgb(173, 173, 173);
+    color: white;
+}
+.invisible1:hover {
+    opacity: 1;
+}
+.invisible2:hover {
+    opacity: 1;
+}
+.invisible3:hover {
+    opacity: 1;
+}
+.invisible4:hover {
+    opacity: 1;
+}
 
-
-
-
-
-
-
-
-
+.links {
+    width: 2.5rem;
+    height: 2.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    position: fixed;
+    top: 25rem;
+}
+.bychloe {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    margin-top: 4rem;
+}
+}
 
 
 
@@ -1497,12 +1276,8 @@ h5 {
     --main-background-color: white;
 }
 
-.background {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(https://static.wixstatic.com/media/9c608a_10fa3b1ab1f14f0bbb12d106cbeade94.jpg);
-
-    width: 48rem;
+body {
+    background-color: #F1FCED;
 }
 
 .alllinks1 {
@@ -1521,8 +1296,6 @@ h5 {
     list-style: none;
     text-decoration: none;
     font-size: 1.5rem;
-    position: absolute;
-    left: 15rem;
 }
 li {
     text-decoration: none;
@@ -1537,10 +1310,8 @@ a {
     list-style: none;
     text-decoration: none;
     letter-spacing: 3px;
-    position: absolute;
-    left: 10rem;
 }
-.home {
+.music {
     border-top: solid black 4px;
 }
 
@@ -1548,52 +1319,20 @@ a {
     color: rgb(247, 64, 240);
     border-top: solid black 4px;
 }
-.newalbum {
-    margin: 1px;
-    font-size: 27px;
+.music-h {
     display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
+    justify-content: center;
+    font-size: 6rem;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 6px;
 }
-.newalbum1 {
-   font-family: "Cutive Mono", monospace;
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: 6px;
-}
-.newalbum2 {
-    padding-left: 9rem;
-    padding-top: 5rem;
-    position: absolute;
-    font-family: "Metal", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-svg {
-    width: 2.5rem;
-    height: 2.5rem;
-}
-
-.linksandmusic {
-    display: flex;
-    flex-direction: row;
-}
-
-.links {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 3rem;
-    position: fixed;
-    top: 4rem;
-}
-
 .musicd {
     background-color: var(--main-background-color);
-    width: 33rem;
-    height: 75rem;
-    margin-left: 10rem;
-    margin-top: 2rem;
+    width: 38rem;
+    height: 80rem;
+    margin-left: 7rem;
 }
 button {
     height: 4rem;
@@ -1613,12 +1352,11 @@ button:active {
     width: 12rem;
 }
 .share {
-    margin-left: 7.8rem;
+    margin-left: 13rem;
     width: 10rem;
 }
 img {
-    width: 30.2rem;
-    height: 30.2rem;
+    width: 35rem;
     margin-left: 1.5rem;
     margin-top: 1rem;
 }
@@ -1628,27 +1366,30 @@ h4 {
 }
 .goodvibes {
     font-weight: 1;
+    font-size: 13px;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
 }
 .wixdemoalbum {
+    font-size: 1.6rem;
     font-weight: 400;
-    padding-left: 7px;
+    margin-left: 1px;
 }
-
 audio {
+    width: 350px;
     padding-left: 1.5rem;
 }
 .m a {
     font-size: 15px;
 }
-
 .m button {
     border-style: none;
 }
-
 .time {
     position: absolute;
-    top: 76rem;
-    left: 38rem;
+    top: 790px;
+    left: 410px;
 }
 .time1 {
     font-weight: 300;
@@ -1678,62 +1419,59 @@ audio {
     opacity: 0;
 }
 .hover1 {
-    width: 293px;
+    width: 380px;
     height: 40px;
     position: absolute;
-    top: 897px;
-    left: 780px;
+    top: 78.5rem;
+    left: 7.8rem;
     display: flex;
     flex-direction: row;
 }
 .hover2 {
-    width: 293px;
+    width: 380px;
+     /* background-color: aqua; */
     height: 41px;
     position: absolute;
-    top: 949px;
-    left: 780px;
+    top: 83.5rem;
+    left: 7.8rem;
     display: flex;
     flex-direction: row;
 }
 .hover3 {
-    width: 293px;
+    width: 380px;
     height: 40px;
     position: absolute;
-    top: 1002px;
-    left: 780px;
+    top: 89rem;
+    left: 7.8rem;
     display: flex;
     flex-direction: row;
 }
 .hover4 {
-    width: 293px;
+    width: 380px;
     height: 40px;
     position: absolute;
-    top: 1055px;
-    left: 780px;
+    top: 94rem;
+    left: 7.8rem;
     display: flex;
     flex-direction: row;
 }
 .p {
     font-size: 10px;
    padding-top: 9px;
+   padding-left: 19px;
 }
 .m1 {
-    margin-top: 2px;
-    width: 118px;
+    margin-top: 4px;
+    width: 93px;
     margin-left: 8px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 159px;
     margin-top: 5px;
    background-color: rgb(173, 173, 173);
    color: white;
@@ -1742,28 +1480,23 @@ audio {
     background-color: rgb(173, 173, 173);
     color: white;
 }
-
 .p2 {
     font-size: 10px;
-   padding-top: 11px;
+   padding-top: 13px;
+   padding-left: 19px;
 }
 .m2 {
-    margin-top: 3px;
-    width: 122px;
+    margin-top: 6px;
+    width: 108px;
     margin-left: 8px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh2 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b2 {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 147px;
     margin-top: 5px;
    background-color: rgb(173, 173, 173);
    color: white;
@@ -1772,28 +1505,23 @@ audio {
     background-color: rgb(173, 173, 173);
     color: white;
 }
-
 .p3 {
     font-size: 10px;
    padding-top: 9px;
+   padding-left: 18px;
 }
 .m3 {
-    margin-top: 1px;
-    width: 122px;
+    margin-top: 5px;
+    width: 99px;
     margin-left: 8px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh3 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b3 {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 154px;
     margin-top: 5px;
    background-color: rgb(173, 173, 173);
    color: white;
@@ -1804,28 +1532,24 @@ audio {
 }
 .p4 {
     font-size: 10px;
-   padding-top: 9px;
+   padding-top: 15px;
+   padding-left: 19px;
 }
 .m4 {
-    margin-top: 1px;
-    width: 122px;
+    margin-top: 7px;
+    width: 70px;
     margin-left: 8px;
     color: rgb(173, 173, 173);
     border-style: none;
     font-size: 14px;
 }
-.sh4 {
-    padding-left: 80px;
-    padding-top: 9px;
-    color: rgb(173, 173, 173);
-}
 .buy-b4 {
     width: 70px;
     height: 30px;
-    margin-left: 10px;
+    margin-left: 188px;
     margin-top: 5px;
-   background-color: rgb(173, 173, 173);
-   color: white;
+    background-color: rgb(173, 173, 173);
+    color: white;
 }
 .buy-b4:hover {
     background-color: rgb(173, 173, 173);
@@ -1843,23 +1567,22 @@ audio {
 .invisible4:hover {
     opacity: 1;
 }
-h5 {
-    display: flex;
-    justify-content: center;
-    font-size: 1.4rem;
-}
 
+.links {
+    width: 2.5rem;
+    height: 2.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    position: fixed;
+    top: 25rem;
+}
 .bychloe {
     display: flex;
     justify-content: center;
     font-size: 1.4rem;
+    margin-top: 4rem;
 }
 
 }
-
-
-
-
-
-
-
