@@ -1,0 +1,212 @@
+.background.about {
+  background: #F1FCED;
+  min-height: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 7rem 0;
+  gap: 1rem;
+}
+
+.content {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  min-height: 100vh;
+}
+
+.bg {
+  width: 70%;
+  background-image: url("https://static.wixstatic.com/media/bfdf85_6f166e11f885427192bcfb4e2448d76e.jpg/v1/fill/w_883,h_1020,al_c,q_85,enc_avif,quality_auto/bfdf85_6f166e11f885427192bcfb4e2448d76e.jpg");
+  background-position: center left;
+  background-size: auto 100%;
+}
+
+.about-h {
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+  font-family: "Cutive Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 6px;
+}
+.chloe-h {
+  font-size: 3rem;
+  font-family: "Metal", serif;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.text {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 1rem;
+  position: relative;
+  right: 8%;
+  top: 15vh;
+}
+
+.line {
+  width: 2rem;
+  height: 4px;
+  background-color: #fc3ff0;
+}
+
+.debut {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-size: 1.25rem;
+}
+.electro-mag {
+  font-size: 0.8rem;
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1px;
+  align-self: end;
+  margin-bottom: 3rem;
+}
+p {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-self: start;
+  width: 50%;
+}
+.subscribe {
+  font-family: "Quintessential", serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+#email {
+  width: 100%;
+  height: 33px;
+}
+#submit {
+  width: 100%;
+  height: 37px;
+  color: white;
+  background-color: rgb(41, 41, 41);
+}
+
+/* music page */
+
+/* #region Music player styles */
+
+.music .player {
+  position: static;
+  width: 100%;
+}
+
+.music .musicd {
+  width: 600px;
+  max-width: 100%;
+}
+
+
+
+.musicd {
+  min-width: 100%;
+  max-width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--main-background-color);
+}
+
+
+
+
+
+.album-image {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://static.wixstatic.com/media/84770f_660be77817344c5c8dbf5dc1df756a26.jpg/v1/fill/w_1691,h_1691,q_85,usm_0.66_1.00_0.01/84770f_660be77817344c5c8dbf5dc1df756a26_mscwdt.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+audio {
+  width: 100%;
+}
+
+.line2 {
+  margin: 2rem auto 2rem 0
+}
+
+.videotag {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style: italic;
+  color: #444444;
+  line-height: 1.5;
+  margin-right: auto;
+}
+
+.video {
+  width: 100%;
+  height: 60vh;
+}
+
+
+
+
+/* #endregion */
+
+@media (max-width: 800px) {
+  .content {
+    margin: 0 auto;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .bg {
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    order: -1;
+  }
+
+  .text {
+    width: 100%;
+    position: static;
+  }
+
+  form {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+
+  .music .musicd {
+  width: 380px;
+  max-width: 100%;
+}
+
+}

@@ -1,0 +1,425 @@
+:root {
+  ---main-color: black;
+  --main-background-color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input textarea,
+label {
+  font: inherit;
+}
+
+.background {
+  min-height: 240vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-image: url("https://static.wixstatic.com/media/9c608a_10fa3b1ab1f14f0bbb12d106cbeade94.jpg/v1/fill/w_1920,h_1470,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/9c608a_10fa3b1ab1f14f0bbb12d106cbeade94.jpg");
+}
+
+/* #region Header styles */
+
+/* HEADER */
+
+header {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #fc3ff0;
+  letter-spacing: 3px;
+}
+
+ul li a.active {
+  color: #fc3ff0;
+}
+.navbar a.active {
+  border-top: black 4px solid;
+}
+
+.navbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.navbar li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul a {
+  font-style: italic;
+  color: black;
+  height: 100%;
+  border-top: transparent 4px solid;
+  line-height: 2.3;
+}
+
+.navbar a:hover {
+  border-top: black 4px solid;
+}
+
+/* #endregion */
+
+/* #region Music player styles */
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+  top: 20vh;
+  left: 15%;
+}
+
+.newalbum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newalbum1 {
+  font-size: 4rem;
+  font-family: "Cutive Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 6px;
+}
+
+.newalbum2 {
+  font-size: 2.75rem;
+  font-family: "Metal", serif;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.musicd {
+  min-width: 280px;
+  max-width: 350px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--main-background-color);
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons button {
+  font-size: 0.9rem;
+  padding: 0.75rem;
+  color: rgb(173, 173, 173);
+  background-color: var(--main-background-color);
+  border: solid 1px rgb(173, 173, 173);
+}
+
+.buttons button:hover,
+.buttons button:active {
+  background-color: var(--main-background-color);
+}
+
+.album-image {
+  width: 310px;
+  height: 310px;
+  background-image: url("./assets/wixmusicdemoalbum.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.goodvibes {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #313231;
+  margin-top: 1rem;
+}
+.wixdemoalbum {
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: #313231;
+  margin-bottom: 1rem;
+}
+
+.playlist {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.playlist li {
+  width: 100%;
+  height: 1.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.playlist button {
+  border: none;
+  background: none;
+}
+
+.playlist span {
+  margin-left: auto;
+}
+
+.buyBtn {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  margin-left: auto;
+}
+
+.buyBtn button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #7e7e7e56;
+  color: #fff;
+}
+
+.buyBtn svg path {
+  fill: #7e7e7e56;
+}
+
+.playlist li:nth-child(1)::before {
+  content: "1";
+}
+.playlist li:nth-child(2)::before {
+  content: "2";
+}
+.playlist li:nth-child(3)::before {
+  content: "3";
+}
+.playlist li:nth-child(4)::before {
+  content: "4";
+}
+
+.playlist li:hover::before {
+  content: "▶";
+  font-size: 0.7rem;
+  color: #7e7e7e56;
+}
+
+.playlist li:hover > span {
+  display: none;
+}
+.playlist li:hover > .buyBtn {
+  display: flex;
+}
+
+/* #endregion */
+
+/* fixed links */
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  position: fixed;
+  left: 4.5%;
+  top: 50%;
+}
+
+.links svg {
+  width: 26px;
+  height: 26px;
+}
+
+footer {
+  margin-top: auto;
+  padding: 2rem;
+}
+
+footer .bychloe {
+  font-size: 1rem;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px #fff;
+}
+
+/* #region MOBILE NAVIGATION */
+
+/* burger button */
+#menuId {
+  display: none;
+}
+
+.burger-btn {
+  width: 4rem;
+  height: 4rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 1rem;
+  right: 2rem;
+  z-index: 100;
+  background: #313231;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.burger-btn span {
+  width: 100%;
+  height: 3px;
+  border-radius: 3px;
+  background: #fff;
+  transition: all 0.5s;
+}
+
+#menuId:checked ~ .burger-btn span:nth-child(1) {
+  rotate: 45deg;
+  translate: 1px 10px;
+}
+#menuId:checked ~ .burger-btn span:nth-child(2) {
+  opacity: 0;
+}
+#menuId:checked ~ .burger-btn span:nth-child(3) {
+  rotate: -45deg;
+  translate: 1px -18px;
+}
+
+/* mobile nav */
+.mobile-nav {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+  opacity: 1;
+  transform: translateX(100%);
+  background: #313231;
+  transition: transform 0.5s;
+}
+
+.mobile-nav ul {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-nav li {
+  height: 4rem;
+  width: 100%;
+  border-bottom: #fff 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobile-nav a {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #fff;
+}
+
+#menuId:checked ~ .mobile-nav {
+  opacity: 1;
+  transform: translateX(0);
+}
+/* #endregion */
+
+/* #region RESPONSIVE STYLES */
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+  /* Mobile menu */
+  .burger-btn {
+    display: flex;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .logo h1 {
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+    z-index: 100;
+    font-size: 2rem;
+  }
+
+  .links {
+    flex-direction: row;
+    top: 4.25rem;
+    left: 2rem;
+  }
+
+  .player {
+    left: 0;
+    text-align: center;
+  }
+}
+/* #endregion */
